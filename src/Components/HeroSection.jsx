@@ -24,7 +24,7 @@ export default function HeroSection() {
 
             {/*the visual placeholder*/}
             <div className="mb-5 p-5 md:w-3/4">
-                <img className="" src="/images/notion.jpg" />
+                <img className="" src="public/images/notion.jpg" />
             </div>
         </section>
     )

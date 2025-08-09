@@ -6,15 +6,15 @@ export default function Logos() {
             <h2 className="text-gray-600 text-sm md: pb-5 md:pb-0 ">Trusted by top teams</h2>
             </div>
             <div className="flex flex-wrap justify-center items-center mx- gap-5 md:gap-8 px-5">
-                <img src="/images/cursor.png" className="w-20 h-5"/>
-                <img src="/images/OpenAI.png" className="w-20 h-5"/>
-                <img src="/images/ramp.png" className="w-20 h-5"/>
-                <img src="/images/volvo.png" className="w-20 h-5"/>
-                <img src="/images/cursor.png" className="w-20 h-5"/>
+                <img src="public/images/cursor.png" className="w-20 h-5"/>
+                <img src="public/images/OpenAI.png" className="w-20 h-5"/>
+                <img src="public/images/ramp.png" className="w-20 h-5"/>
+                <img src="public/images/volvo.png" className="w-20 h-5"/>
+                <img src="public/images/cursor.png" className="w-20 h-5"/>
                 <span className="hidden md:block md:flex md:flex-wrap md:justify-center md:items-center md:mx-0 md:gap-5 md:px-15">
-                <img src="/images/volvo.png" className="w-20 h-5"/>
-                <img src="/images/ramp.png" className="w-20 h-5"/>
-                <img src="/images/OpenAI.png" className="w-20 h-5"/>
+                <img src="public/images/volvo.png" className="w-20 h-5"/>
+                <img src="public/images/ramp.png" className="w-20 h-5"/>
+                <img src="public/images/OpenAI.png" className="w-20 h-5"/>
                 
                 </span>
             </div>
