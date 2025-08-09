@@ -35,7 +35,7 @@ export default function Feature() {
             </ul>
            <hr className="absolute  border-t-2 border-black w-full"/>
             </div>
-            <img className="hidden md:block pt-10" src="public/images/writenotion.jpg" />
+            <img className="hidden md:block pt-10" src="/images/writenotion.jpg" />
             </div>
         </div>
         
