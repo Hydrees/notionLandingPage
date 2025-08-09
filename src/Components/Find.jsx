@@ -52,7 +52,7 @@ export default function Find() {
         </div>
                     
                     <div className="w-full justify-center h-100 pl-10 pr-10 pt-15 rounded-2xl bg-blue-50 ">
-                        <img className="w-full rounded h-85 " src="src/assets/productnotion.jpg" />
+                        <img className="w-full rounded h-85 " src="/images/productnotion.jpg" />
                     </div>
         </section>
     )
