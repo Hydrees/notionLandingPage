@@ -1,4 +1,5 @@
 import Button from "./ui/Button"
+import notionImage from "../assets/pictures/notion.jpg"
 
 export default function HeroSection() {
     return (
@@ -24,7 +25,7 @@ export default function HeroSection() {
 
             {/*the visual placeholder*/}
             <div className="mb-5 p-5 md:w-3/4">
-                <img className="" src="/images/notion.jpg" />
+                <img className="" src={notionImage} />
             </div>
         </section>
     )

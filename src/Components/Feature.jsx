@@ -1,3 +1,6 @@
+import roadmapnotionImage from "../assets/pictures/roadmapnotion.jpg"
+import writenotionImage from "../assets/pictures/writenotion.jpg"
+
 export default function Feature() {
     return (
         <section className="flex flex-col mx-5 md:mx-25 items-center">
@@ -18,7 +21,7 @@ export default function Feature() {
         </div>
         <article className=" w-full justify-center h-120  pl-10 md:pr-30 md:pl-30  pt-15 bg-blue-50 mb-10  rounded-2xl hover:border-2 hover:border-blue-200">
                     
-                    <img className=" w-full  md:ml rounded h-105" src="/images/roadmapnotion.jpg" /> 
+                    <img className=" w-full  md:ml rounded h-105" src={roadmapnotionImage} /> 
         </article>
 
         <div className="mt- flex flex-col justify-center items-center  my-20 ">
@@ -35,7 +38,7 @@ export default function Feature() {
             </ul>
            <hr className="absolute  border-t-2 border-black w-full"/>
             </div>
-            <img className="hidden md:block pt-10" src="/images/writenotion.jpg" />
+            <img className="hidden md:block pt-10" src={writenotionImage} />
             </div>
         </div>
         

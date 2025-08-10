@@ -1,3 +1,7 @@
+import calendernotionImage from "../assets/pictures/calendernotion.jpg"
+import recrunotionImage from "../assets/pictures/Recrunotion.jpg"
+import designnotionImage from "../assets/pictures/designnotion.jpg"
+
 export default function GetStarted() {
     return (
         <section className="flex flex-col mb-10">
@@ -17,7 +21,7 @@ export default function GetStarted() {
                             <button className="hidden md:block bg-black px-8 w-fit text-sm py-1 text-white rounded">Download from the <br/> <span className="text-lg">Microsoft Store</span></button>
                         </div>
                     </div>
-                    <img className=" w-full rounded" src="public/images/designnotion.jpg" /> 
+                    <img className=" w-full rounded" src={designnotionImage} /> 
        </article>
 
        <div className="flex flex-col gap-5 md:w-1/2">
@@ -32,7 +36,7 @@ export default function GetStarted() {
                     <button className="bg-white mb-5 px-5 py-1 w-fit text-sm   text-black rounded border-gray-100">Download</button>
                 </div>
             </div>
-            <img className="hidden md:block w-1/2 rounded" src="public/images/Recrunotion.jpg" /> 
+            <img className="hidden md:block w-1/2 rounded" src={recrunotionImage} /> 
         </article>
 
         <article className="flex flex-col md:flex-row md:space-x-25 md:h-80   justify-center   pl-5 pt-5  bg-gray-100  rounded-2xl">
@@ -46,7 +50,7 @@ export default function GetStarted() {
                     <button className="bg-white mb-5 px-5 py-1 w-fit text-sm   text-black rounded border-gray-100">Download</button>
                 </div>
             </div>
-            <img className="hidden md:block w-1/2 rounded" src="public/images/calendernotion.jpg" /> 
+            <img className="hidden md:block w-1/2 rounded" src={calendernotionImage} /> 
         </article>
         </div>
 
