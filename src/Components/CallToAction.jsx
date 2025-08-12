@@ -13,12 +13,11 @@ export default function  CallToAction() {
                 <a className=" text-md md:text-lg" href="#"> Read the full story-- </a>
             </div>
             <div className="h-50 md:w-3/4 aspect-video rounded-xl overflow-hidden">
-                <iframe className="w-full h-full"
-                src="https://youtu.be/HubmluaaFmc?si=hTD4mj16aX_HWhis"
-                title="OpenAI turns shared knowledge into faster workflows"
-                frameBorder="0"
-                allow="autoplay; encrypted-media picture-in-picture"
-                allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HubmluaaFmc?si=gjPs-uDkgLMPJH39" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
             </div>
         </article>
         <hr className="mt-15 mb-5 text-gray-300 mx-5"/>
